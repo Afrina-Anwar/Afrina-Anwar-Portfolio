@@ -210,13 +210,13 @@ section{
 .grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .grid-card{
     border: 2px solid black;
     border-radius: 3rem;
-    padding: 3rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -286,7 +286,7 @@ section{
 }
 
 .project-card img{
-    width: 20vw;
+    width: 100%;
     border-radius: 1rem;
 }
 
